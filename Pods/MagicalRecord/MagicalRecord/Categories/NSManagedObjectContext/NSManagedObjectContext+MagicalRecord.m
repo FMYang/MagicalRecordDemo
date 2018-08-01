@@ -314,7 +314,7 @@ static id MagicalRecordUbiquitySetupNotificationObserver;
     
     [MagicalRecordRootSavingContext performBlock:^{
         [MagicalRecordRootSavingContext MR_obtainPermanentIDsBeforeSaving];
-        [MagicalRecordRootSavingContext setMergePolicy:NSMergeByPropertyObjectTrumpMergePolicy];
+        [MagicalRecordRootSavingContext setMergePolicy:NSErrorMergePolicy];
         [MagicalRecordRootSavingContext MR_setWorkingName:@"MagicalRecord Root Saving Context"];
     }];
 

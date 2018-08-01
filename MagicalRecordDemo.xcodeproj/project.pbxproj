@@ -7,17 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3679DA022111BEB600C623B5 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3679DA012111BEB600C623B5 /* TestViewController.swift */; };
+		36A47DBB2111B2FE0068AE59 /* TaskOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A47DBA2111B2FE0068AE59 /* TaskOperation.swift */; };
 		36AE749521104861005BBA4B /* MagicalRecordDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36AE748921104861005BBA4B /* MagicalRecordDemo.xcdatamodeld */; };
 		36AE749621104861005BBA4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AE748C21104861005BBA4B /* ViewController.swift */; };
 		36AE749721104861005BBA4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AE748D21104861005BBA4B /* AppDelegate.swift */; };
 		36AE749821104861005BBA4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AE748F21104861005BBA4B /* Assets.xcassets */; };
 		36AE749921104861005BBA4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AE749021104861005BBA4B /* LaunchScreen.storyboard */; };
 		36AE749A21104861005BBA4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36AE749221104861005BBA4B /* Main.storyboard */; };
-		36AE749B21104861005BBA4B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36AE749421104861005BBA4B /* Info.plist */; };
+		36AE74A221115F2E005BBA4B /* News+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AE74A021115F2E005BBA4B /* News+CoreDataClass.swift */; };
+		36AE74A321115F2E005BBA4B /* News+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AE74A121115F2E005BBA4B /* News+CoreDataProperties.swift */; };
 		D4C71672882CCCBF6A5015CB /* Pods_MagicalRecordDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C496978470C540A5D1FA0F1 /* Pods_MagicalRecordDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3679DA012111BEB600C623B5 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		36A47DBA2111B2FE0068AE59 /* TaskOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TaskOperation.swift; path = MagicalRecordDemo/Pages/TaskOperation.swift; sourceTree = SOURCE_ROOT; };
 		36AE747021104818005BBA4B /* MagicalRecordDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicalRecordDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AE748A21104861005BBA4B /* MagicalRecordDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MagicalRecordDemo.xcdatamodel; sourceTree = "<group>"; };
 		36AE748C21104861005BBA4B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +31,8 @@
 		36AE749121104861005BBA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36AE749321104861005BBA4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36AE749421104861005BBA4B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36AE74A021115F2E005BBA4B /* News+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "News+CoreDataClass.swift"; sourceTree = "<group>"; };
+		36AE74A121115F2E005BBA4B /* News+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "News+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		49867AD23FB38E1ED5BC6EC9 /* Pods-MagicalRecordDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7C496978470C540A5D1FA0F1 /* Pods_MagicalRecordDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicalRecordDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88AA911BEF5F6F9CBED4991F /* Pods-MagicalRecordDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicalRecordDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MagicalRecordDemo/Pods-MagicalRecordDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -74,7 +81,10 @@
 		36AE748821104861005BBA4B /* DB */ = {
 			isa = PBXGroup;
 			children = (
+				36AE74A021115F2E005BBA4B /* News+CoreDataClass.swift */,
+				36AE74A121115F2E005BBA4B /* News+CoreDataProperties.swift */,
 				36AE748921104861005BBA4B /* MagicalRecordDemo.xcdatamodeld */,
+				36A47DBA2111B2FE0068AE59 /* TaskOperation.swift */,
 			);
 			path = DB;
 			sourceTree = "<group>";
@@ -84,6 +94,7 @@
 			children = (
 				36AE748C21104861005BBA4B /* ViewController.swift */,
 				36AE748D21104861005BBA4B /* AppDelegate.swift */,
+				3679DA012111BEB600C623B5 /* TestViewController.swift */,
 			);
 			path = Pages;
 			sourceTree = "<group>";
@@ -145,7 +156,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = yfm;
 				TargetAttributes = {
 					36AE746F21104818005BBA4B = {
@@ -176,7 +187,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36AE749B21104861005BBA4B /* Info.plist in Resources */,
 				36AE749A21104861005BBA4B /* Main.storyboard in Resources */,
 				36AE749821104861005BBA4B /* Assets.xcassets in Resources */,
 				36AE749921104861005BBA4B /* LaunchScreen.storyboard in Resources */,
@@ -229,7 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3679DA022111BEB600C623B5 /* TestViewController.swift in Sources */,
+				36AE74A221115F2E005BBA4B /* News+CoreDataClass.swift in Sources */,
 				36AE749721104861005BBA4B /* AppDelegate.swift in Sources */,
+				36A47DBB2111B2FE0068AE59 /* TaskOperation.swift in Sources */,
+				36AE74A321115F2E005BBA4B /* News+CoreDataProperties.swift in Sources */,
 				36AE749621104861005BBA4B /* ViewController.swift in Sources */,
 				36AE749521104861005BBA4B /* MagicalRecordDemo.xcdatamodeld in Sources */,
 			);
